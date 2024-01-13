@@ -1,0 +1,36 @@
+Ejecutar con doble click sobre ClasificacionVideos.py o mediante:
+python ClasificacionVideos.py
+
+Es necesaria conexion a internet para descarga del modelo yolov8.
+Es necesario instalar ultralytic:
+pip install ultralytics
+
+Tambien es necesario instalar tensorflow y keras.  https://www.youtube.com/watch?v=257LGYefDRQ
+
+El directorio de trabajo es llamado 'frames', mejor no renombrarlo y debe estar creado.
+
+La ruta final donde se crea el video final puede variar de un ordenador a otro.
+La ultima linea de la ejecucion en consola especifica este directorio.
+
+El archivo de video a procesar se especifica en:
+linea de codigo 26  	# Ruta del video de entrada
+			video_in = 'parque.mp4' 
+Este archivo de video debe estar en el directorio '/data/'
+
+
+Videos de poca resolucion mejor bajar el tipo de letra en el codigo:
+linea 92  tamañoLetra = de 2-3 a 1.5
+Hacerlo tambien para video mas altos que anchos.
+Para videos mas anchos que altos se puede subir a 3 o mas.
+
+
+
+
+
+___________________________________________________________________________________
+
+Para recortar el tamaño de los videos de entrada se puede utilizar la herramienta online:
+https://online-video-cutter.com/es/
+
+El video de ejemplo esta descargado de pexels:
+https://www.pexels.com/video/people-walking-at-the-park-1721277/
