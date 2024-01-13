@@ -93,7 +93,7 @@ for file in os.listdir(os.getcwd()):
     colorLetra = (150,0,0)
     grosorLetra = 2
  
-    #Escribir texto. DOs textos en cabez y pie nos indican resultado de clasificacion
+    #Escribir texto. Dos textos en cabeza y pie nos indican resultado de clasificacion
     cv2.putText(img, texto, ubicacion, font, tamañoLetra, colorLetra, grosorLetra)
     cv2.putText(img, texto, (10,height-70), font, tamañoLetra, colorLetra, grosorLetra)
     imagen=imagen.replace('imagen','imagen_procesada')
